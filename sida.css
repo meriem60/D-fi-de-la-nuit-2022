@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h2{
+    position: absolute;
+    height: 2px havor;
+}
+.sida{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./back.jpg);
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    
+
+}
+.selector{
+    width: 100%;
+    margin-top: 40rem;
+}
+#selectfield{
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+   
+    box-sizing: border-box;
+    background: linear-gradient(#d5d7da,#6eb1c7);
+    border-radius: 6px;
+}
+#sida{
+    color: black;
+    background-color: hsl(195, 44%, 61%,30%) ;
+    margin-top: 1em;
+    margin-left: 8em;
+    border-radius: 0.5em;
+    padding: 1em 3em  1em 3em;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+}
